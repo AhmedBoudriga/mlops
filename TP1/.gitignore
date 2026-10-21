@@ -1,0 +1,45 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+mlruns/
+mlflow.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Anaconda
+anaconda_projects/
+.conda/
+
+# Données & modèles
+*.csv
+*.pkl
+*.h5
+*.joblib
+*.parquet
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
